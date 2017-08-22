@@ -1,0 +1,26 @@
+{
+  "name": "next-status",
+  "description": "Status for next.",
+  "main": "dist/next-status.js",
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "next"
+  ],
+  "homepage": "https://github.com/afeiship/next-status",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src",
+    "gulp",
+    "gulpfile.js"
+  ]
+}
