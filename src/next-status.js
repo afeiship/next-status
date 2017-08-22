@@ -2,7 +2,6 @@
 
   var global = global || this || self || window;
   var nx = global.nx || require('next-js-core2');
-  var NULL_STATUS = 'NULL';
 
   nx.status = function(inMap){
     for (var key in inMap) {
@@ -13,7 +12,7 @@
         }
       }
     }
-    return NULL_STATUS;
+    return null;
   };
 
   if (typeof module !== 'undefined' && module.exports) {

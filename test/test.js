@@ -21,9 +21,9 @@ describe('nx.status only return one STR_STATUS', function() {
     );
   });
 
-  it('should return NULL Status', function() {
+  it('should return null when no condition in map', function() {
     assert.equal(
-      'NULL',
+      null,
       nx.status(map2)
     );
   });
